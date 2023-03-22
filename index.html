@@ -16,12 +16,11 @@
 <body>
 
   <header>
-    <nav class="bg-slate-200 py-4">
+    <nav class="py-4">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between">
           <div class="flex items-center">
             <img class="h-8 w-auto mr-3 cursor-pointer" src="./images/logo.svg" alt="Logo">
-            <!-- <a href="#" class="text-white text-base font-medium">Brand Name</a> -->
           </div>
           <div class="flex items-center font-sans">
             <a href="#" class="text-gray-700 text-lg font-medium hover:text-gray-400 mr-4">Features</a>
@@ -35,13 +34,33 @@
 
   <main class="font-secondSans">
 
+    <div class="flex flex-col md:flex-row md:flex-wrap md:justify-between md:items-center">
+      <div class="md:w-1/2">
+        <h1>
+          All your files in one secure location, accessible anywhere.
+        </h1>
+        <p>
+          Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.
+        </p>
+        <form class="flex items-center">
+          <input class="bg-white-500 shadow-md appearance-none border-2 border-gray-300 rounded py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500 peer peer-invalid:border-red-500" id="email" type="email" placeholder="Enter your email..." required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" autocomplete="off">
+          <button class="ml-4 shadow-md bg-blue-500 hover:bg-blue-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">Get started</button>
+        </form>
+        <p class="text-red-500 text-xs italic peer-invalid:visible peer-valid:hidden" id="email-error"></p>
+      </div>
+      <div class="md:w-1/2">
+        <img src="./images/illustration-1.svg" alt="This is the hero banner">
+      </div>
+    </div>
+    
+
   </main>
 
-  All your files in one secure location, accessible anywhere.
+  <!-- 
 
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
+  
 
   Get Started
 
@@ -78,13 +97,14 @@
 
   Contact Us
   Terms
-  Privacy
+  Privacy -->
 
-  <footer>
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
       Coded by <a href="https://blackfury117.github.io/" target="_blank" rel="noopener">Black Fury</a>.
     </p>
-  </footer>
+  </footer> -->
+  <script src="./script.js"></script>
 </body>
 </html>
