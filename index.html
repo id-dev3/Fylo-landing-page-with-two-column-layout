@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/1b2a4a8051.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -32,9 +33,9 @@
     </nav>
   </header>
 
-  <main class="font-main mx-10">
+  <main class="font-main">
 
-    <section class="flex flex-col md:flex-row md:flex-wrap md:justify-between md:items-center sm:flex-row-reverse mt-4">
+    <section class="flex flex-col md:flex-row md:flex-wrap md:justify-between md:items-center sm:flex-row-reverse mt-4 mb-10 mx-10">
       <div class="md:w-1/2">
         <h1 class="text-4xl font-bold mb-5">
           All your files in one secure location, accessible anywhere.
@@ -51,16 +52,47 @@
         <p class="text-red-500 text-xs italic peer-invalid:visible peer-valid:hidden" id="email-error"></p>
       </div>
       <div class="md:w-1/2">
-        <img src="./images/illustration-1.svg" alt="This is the hero banner">
+        <img class="w-full" src="./images/illustration-1.svg" alt="This is the hero banner">
       </div>
     </section>
     
-    <section class="flex flex-col md:flex-row md:flex-wrap md:justify-between md:items-center sm:flex-row-reverse mt-4 h-screen bg-cover bg-no-repeat bg-center bg-[./images/bg-curve-desktop.svg]">
+    <section class="flex flex-col md:flex-row md:flex-wrap md:justify-between md:items-center sm:flex-row-reverse mt-4 h-screen bg-cover w-full bg-no-repeat bg-center bg-[url('/images/bg-curve-desktop.svg')] px-10">
       <div class="md:w-1/2">
-
+        <h2 class="text-4xl font-bold mb-5">
+          Stay productive, wherever you are
+        </h2>
+        <p class="mb-5 text-lg text-gray-500 font-medium">
+          Never let location be an issue when accessing your files. Fylo has you 
+          covered for all of your file storage needs.
+        </p>
+        <p class="mb-5 text-lg text-gray-500 font-medium">
+          Securely share files and folders with friends, family and colleagues for 
+          live collaboration. No email attachments required!
+        </p>
+        <a class="text-lg font-semibold cursor-pointer text-green-500 hover:text-green-300 border-b border-b-green-500 hover:border-b-green-300" href="#">
+          See how Fylo works
+          <i class="fa-solid fa-circle-right"></i>
+        </a>
+        <div class="bg-white w-72 p-4 rounded-lg shadow-lg mt-8">
+          <div class="flex items-center mb-3">
+            <img src="./images/icon-quotes.svg" alt="This an icon of a quote">
+          </div>
+          <p class="text-gray-500 text-sm mb-3">
+            Fylo has improved our team productivity by an order of magnitude. Since 
+            making the switch our team has become a well-oiled collaboration machine.
+          </p>
+          <div class="flex items-center">
+            <img class="w-10 h-10 rounded-full mr-4" src="./images/avatar-testimonial.jpg" alt="Profile Picture">
+            <div>
+              <p class="text-gray-900 text-sm font-bold">John Doe</p>
+              <p class="text-gray-600 text-sm">Software Engineer</p>
+            </div>
+          </div>
+        </div>
+        
       </div>
       <div class="md:w-1/2">
-
+        <img class="w-full" src="./images/illustration-2.svg" alt="">
       </div>
     </section>
 
@@ -68,18 +100,15 @@
 
   <!-- 
 
-  Stay productive, wherever you are
+  
 
-  Never let location be an issue when accessing your files. Fylo has you 
-  covered for all of your file storage needs.
+  
 
-  Securely share files and folders with friends, family and colleagues for 
-  live collaboration. No email attachments required!
+  
 
-  See how Fylo works
+  
 
-  Fylo has improved our team productivity by an order of magnitude. Since 
-  making the switch our team has become a well-oiled collaboration machine.
+  
 
   Kyle Burton
   Founder & CEO, Huddle
