@@ -12,3 +12,16 @@ const emailInput = document.getElementById("email");
         emailError.textContent = "";
     }
 });
+
+const emailInputBis = document.getElementById("email-2");
+    const emailErrorBis = document.getElementById("email-error-bis");
+
+    emailInputBis.addEventListener("input", () => {
+    if (!emailInputBis.checkValidity()) {
+        emailInputBis.classList.add("border-red-500");
+        emailErrorBis.textContent = "Please check your email";
+    } else {
+        emailInputBis.classList.remove("border-red-500");
+        emailErrorBis.textContent = "";
+    }
+});
