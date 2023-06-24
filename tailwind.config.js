@@ -8,6 +8,7 @@ module.exports = {
       },
       colors: {
         heading: "#07043b",
+        thirdSection: "#575989",
       }
     },
   },
