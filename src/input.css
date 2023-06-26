@@ -2,14 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Raleway:wght@400;500;600&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+.logo-footer {
+    width: 150px;
+    height: auto;
 }
-
-h1,h2 {
-    color: #0c083f;
-} */
