@@ -6,3 +6,11 @@
     width: 150px;
     height: auto;
 }
+
+.footer i {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 0.689rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}

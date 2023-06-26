@@ -536,6 +536,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -580,8 +584,12 @@ video {
   margin-top: 2rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .flex {
@@ -656,6 +664,10 @@ video {
 
 .justify-start {
   justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -770,12 +782,12 @@ video {
   padding-right: 1rem;
 }
 
-.font-raleway {
-  font-family: 'Raleway', sans-serif;
-}
-
 .font-openSans {
   font-family: 'Open Sans', sans-serif;
+}
+
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
 }
 
 .text-3xl {
@@ -888,6 +900,14 @@ video {
 .logo-footer {
   width: 150px;
   height: auto;
+}
+
+.footer i {
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 0.689rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .hover\:border-b-green-300:hover {
