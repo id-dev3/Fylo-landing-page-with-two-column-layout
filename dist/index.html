@@ -56,8 +56,9 @@
     </section>
     
     <section class="flex flex-col-reverse sm:flex-row-reverse md:flex-row md:flex-wrap md:justify-between md:items-center mt-4 h-screen bg-cover bg-no-repeat bg-center bg-[url('/images/bg-curve-desktop.svg')] px-10">
+      
       <div class="md:w-1/2">
-        <h2 class="text-4xl text-heading font-bold font-raleway mb-5">
+        <h2 class="text-center md:text-left text-lg md:text-4xl text-heading font-bold font-raleway mb-5">
           Stay productive, wherever you are
         </h2>
         <p class="mb-5 text-base text-gray-500 font-semibold">
@@ -68,31 +69,37 @@
           Securely share files and folders with friends, family and colleagues for 
           live collaboration. No email attachments required!
         </p>
-        <a class="text-base font-semibold cursor-pointer text-green-500 hover:text-green-300 border-b border-b-green-500 hover:border-b-green-300" href="#">
-          See how Fylo works
-          <i class="fa-solid fa-circle-right"></i>
-        </a>
+        <div class="flex items-center justify-center sm:items-start sm:justify-start">
+          <a class="text-base font-semibold cursor-pointer text-green-500 hover:text-green-300 border-b border-b-green-500 hover:border-b-green-300" href="#">
+            See how Fylo works
+            <i class="fa-solid fa-circle-right"></i>
+          </a>
+        </div>
 
-        <div class="bg-white w-72 p-4 rounded-lg shadow-lg mt-8">
-          <div class="flex items-center mb-3">
-            <img src="/images/icon-quotes.svg" alt="This an icon of a quote">
-          </div>
-          <p class="text-gray-500 text-sm mb-3">
-            Fylo has improved our team productivity by an order of magnitude. Since 
-            making the switch our team has become a well-oiled collaboration machine.
-          </p>
-          <div class="flex items-center">
-            <img class="w-10 h-10 rounded-full mr-4" src="/images/avatar-testimonial.jpg" alt="Profile Picture">
-            <div>
-              <p class="text-gray-900 text-sm font-bold">Kyle Burton</p>
-              <p class="text-gray-600 text-sm">Founder & CEO, Huddle</p>
+        <div class="flex items-center justify-center sm:items-start sm:justify-start">
+          <div class="bg-white w-72 p-4 rounded-lg shadow-lg mt-8">
+            <div class="flex items-center mb-3">
+              <img src="/images/icon-quotes.svg" alt="This an icon of a quote">
+            </div>
+            <p class="text-gray-500 text-sm mb-3">
+              Fylo has improved our team productivity by an order of magnitude. Since 
+              making the switch our team has become a well-oiled collaboration machine.
+            </p>
+            <div class="flex items-center">
+              <img class="w-10 h-10 rounded-full mr-4" src="/images/avatar-testimonial.jpg" alt="Profile Picture">
+              <div>
+                <p class="text-gray-900 text-sm font-bold">Kyle Burton</p>
+                <p class="text-gray-600 text-sm">Founder & CEO, Huddle</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="md:w-1/2">
-        <img class="w-full" src="/images/illustration-2.svg" alt="">
+
+      <div class="md:w-1/2 overflow-hidden">
+        <img class="w-full h-full" src="/images/illustration-2.svg" alt="">
       </div>
+
     </section>
 
     <section class="flex flex-col md:flex-row md:flex-wrap md:justify-between sm:flex-row-reverse px-10 py-16 bg-thirdSection">
