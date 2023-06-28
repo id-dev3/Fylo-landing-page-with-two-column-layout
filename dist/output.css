@@ -728,6 +728,34 @@ video {
   background-image: url('./images/bg-curve-desktop.svg');
 }
 
+.bg-\[url\(\'g\'\)\] {
+  background-image: url('g');
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'\.\/\'\)\] {
+  background-image: url('./');
+}
+
+.bg-\[url\(\'\/\'\)\] {
+  background-image: url('/');
+}
+
+.bg-\[url\(\'C\:\\Users\\USER\\Documents\\front-end-development\\fylo-landing-page-with-two-column-layout-master\\images\\bg-curve-desktop\.svg\'\)\] {
+  background-image: url('C:\Users\USER\Documents\front-end-development\fylo-landing-page-with-two-column-layout-master\images\bg-curve-desktop.svg');
+}
+
+.bg-\[url\(\'images\\bg-curve-desktop\.svg\'\)\] {
+  background-image: url('images\bg-curve-desktop.svg');
+}
+
+.bg-\[url\(\'https\:\/\/raw\.githubusercontent\.com\/BlackFury117\/Fylo-landing-page-with-two-column-layout\/0a7084f69ec4f30d4424410ba0f33af3eae697a4\/images\/bg-curve-desktop\.svg\'\)\] {
+  background-image: url('https://raw.githubusercontent.com/BlackFury117/Fylo-landing-page-with-two-column-layout/0a7084f69ec4f30d4424410ba0f33af3eae697a4/images/bg-curve-desktop.svg');
+}
+
 .bg-cover {
   background-size: cover;
 }
