@@ -12,7 +12,9 @@ This is the solution to the [Fylo landing page with two column layout challenge 
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Tailwind CSS](https://tailwindcss.com/) - CSS library <br><br>
+- [Tailwind CSS](https://tailwindcss.com/) - CSS library 
+
+Preview it here - [Fylo landing page with two column layout](https://blackfury117.github.io/Fylo-landing-page-with-two-column-layout/) <br><br>
 
 ## Author
 
